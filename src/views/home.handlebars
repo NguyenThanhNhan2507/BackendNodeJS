@@ -1,0 +1,12 @@
+<div>
+  <div>
+    {{#each logins}}
+      <div> 
+          <a href="/courses/{{this.slug}}">
+             <h1>{{this.email}}</h1>
+          </a>
+          <h1>{{this.password}}</h1>
+      </div>
+  {{/each}}
+  </div>
+</div>
